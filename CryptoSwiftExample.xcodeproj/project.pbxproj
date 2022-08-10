@@ -14,6 +14,7 @@
 		7EDF9EDF28A3EC6F00999899 /* CryptoSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF9EDE28A3EC6F00999899 /* CryptoSwiftExampleTests.swift */; };
 		7EDF9EE928A3EC6F00999899 /* CryptoSwiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF9EE828A3EC6F00999899 /* CryptoSwiftExampleUITests.swift */; };
 		7EDF9EEB28A3EC6F00999899 /* CryptoSwiftExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF9EEA28A3EC6F00999899 /* CryptoSwiftExampleUITestsLaunchTests.swift */; };
+		7EDF9EF928A3ECD100999899 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7EDF9EF828A3ECD100999899 /* CryptoSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDF9EF928A3ECD100999899 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = CryptoSwiftExample;
+			packageProductDependencies = (
+				7EDF9EF828A3ECD100999899 /* CryptoSwift */,
+			);
 			productName = CryptoSwiftExample;
 			productReference = 7EDF9ECA28A3EC6E00999899 /* CryptoSwiftExample.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 7EDF9EC128A3EC6D00999899;
+			packageReferences = (
+				7EDF9EF728A3ECD100999899 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 7EDF9ECB28A3EC6E00999899 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7EDF9EF728A3ECD100999899 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7EDF9EF828A3ECD100999899 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EDF9EF728A3ECD100999899 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7EDF9EC228A3EC6D00999899 /* Project object */;
 }
