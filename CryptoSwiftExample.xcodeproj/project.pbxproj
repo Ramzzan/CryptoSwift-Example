@@ -15,6 +15,7 @@
 		7EDF9EE928A3EC6F00999899 /* CryptoSwiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF9EE828A3EC6F00999899 /* CryptoSwiftExampleUITests.swift */; };
 		7EDF9EEB28A3EC6F00999899 /* CryptoSwiftExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF9EEA28A3EC6F00999899 /* CryptoSwiftExampleUITestsLaunchTests.swift */; };
 		7EDF9EF928A3ECD100999899 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7EDF9EF828A3ECD100999899 /* CryptoSwift */; };
+		7EDF9EFB28A3ED4300999899 /* CryptoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF9EFA28A3ED4300999899 /* CryptoHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7EDF9EE428A3EC6F00999899 /* CryptoSwiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoSwiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDF9EE828A3EC6F00999899 /* CryptoSwiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSwiftExampleUITests.swift; sourceTree = "<group>"; };
 		7EDF9EEA28A3EC6F00999899 /* CryptoSwiftExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSwiftExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EDF9EFA28A3ED4300999899 /* CryptoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7EDF9ECF28A3EC6E00999899 /* ContentView.swift */,
 				7EDF9ED128A3EC6F00999899 /* Assets.xcassets */,
 				7EDF9ED328A3EC6F00999899 /* Preview Content */,
+				7EDF9EFA28A3ED4300999899 /* CryptoHelper.swift */,
 			);
 			path = CryptoSwiftExample;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				7EDF9ED028A3EC6E00999899 /* ContentView.swift in Sources */,
 				7EDF9ECE28A3EC6E00999899 /* CryptoSwiftExampleApp.swift in Sources */,
+				7EDF9EFB28A3ED4300999899 /* CryptoHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
